@@ -19,7 +19,9 @@
                         <small class="pull-right">{{$teacher->email}}</small>
                     </li>
                 @endforeach
-                {{$teachers->links()}}
+                <div class="text-center">
+                    {{$teachers->links()}}
+                </div>
             </ul>
         @else
             <p>Pas d'enseignants disponibles</p>
